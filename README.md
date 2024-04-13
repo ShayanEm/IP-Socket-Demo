@@ -18,7 +18,7 @@ g++ server.cpp common.cpp -o server
 To transfer a file to the server, execute the `client` executable with the server's IP address, port number, and the filename as arguments:
 
 ```bash
-g++ client.cpp commun.cpp -o client
+g++ client.cpp common.cpp -o client
 ./client <server_ip> <port_number> <filename>
 ```
 
