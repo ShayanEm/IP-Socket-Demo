@@ -9,6 +9,7 @@ This is a simple file transfer server application written in C++. It allows clie
 To run the server, execute the `server` executable with the desired port number as the only argument:
 
 ```bash
+g++ server.cpp common.cpp -o server
 ./server <port_number>
 ```
 
@@ -17,6 +18,7 @@ To run the server, execute the `server` executable with the desired port number 
 To transfer a file to the server, execute the `client` executable with the server's IP address, port number, and the filename as arguments:
 
 ```bash
+g++ client.cpp commun.cpp -o client
 ./client <server_ip> <port_number> <filename>
 ```
 
